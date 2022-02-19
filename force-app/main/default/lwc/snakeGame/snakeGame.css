@@ -1,0 +1,43 @@
+.header{
+    background: rgb(22, 2, 36);
+    color:white;
+    font-size: 1rem;
+}
+
+.game-container{
+    width: 100%;
+    height: 60vh;
+    background: rgba(5, 27, 20, 0.8);
+    text-align: center;
+}
+
+.game-play div{
+    width: 20px;
+    height: 20px;
+    background: rgba(122, 161, 148, 0.8);
+    display: inline-block;
+}
+
+.snake{
+    background: rgba(20, 121, 20, 0.692) !important;
+}
+
+.food{
+    background: rgb(49, 3, 3) !important;
+    border-radius: 50%;
+}
+
+.overlay {
+    position: relative;
+    width: 100%;
+    margin-top: -30vh;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+.overlay-content {
+    position: relative;
+    top: 50%;
+    text-align: center;
+}
